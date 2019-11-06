@@ -1,0 +1,27 @@
+div{
+
+}
+nav>ul>a{
+		position:absolute;
+		top:65px;
+		left:183px;
+		right:183px;
+	border: solid black 17px;
+	color:white;
+	background-color:black;
+	word-spacing:34px;
+}
+li{
+	display:inline-block;
+	word-spacing: 0px;
+}
+#logo{
+	position:absolute;
+	top:21px;
+	left:207px;
+}
+#header{
+	position:absolute;
+	top:90px;
+	left:0px;
+}
