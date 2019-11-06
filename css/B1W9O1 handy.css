@@ -1,19 +1,25 @@
 div{
 
 }
-nav>ul>a{
-		position:absolute;
-		top:65px;
-		left:183px;
-		right:183px;
+nav>ul{
+	position:absolute;
+	top:45px;
+	left:183px;
+	right:183px;
 	border: solid black 17px;
 	color:white;
 	background-color:black;
 	word-spacing:34px;
+	overflow:hidden;
+	display:inline;
+	padding:5px 0px
 }
-li{
+nav>ul>li{
 	display:inline-block;
 	word-spacing: 0px;
+}
+a{
+	color:white;
 }
 #logo{
 	position:absolute;
@@ -24,4 +30,47 @@ li{
 	position:absolute;
 	top:90px;
 	left:0px;
+}
+#banner1{
+	position:absolute;
+	top:563px;
+	left:208px;
+}
+#banner2{
+	position:absolute;
+	top:563px;
+	left:533px;
+}
+#banner3{
+	position:absolute;
+	top:563px;
+	left:858px;
+}
+.uitklap-menu{
+position:absolute;
+top:35px;
+left:79px;
+display:none;
+list-style-type:none;
+padding:0px;
+background-color:black;	
+}
+.uiklap-menu>li{
+	color:white;
+}
+.hover-item:hover >.uitklap-menu{
+	display:block;
+}
+.hover-item{
+	position: relative;
+}
+.yellow>ul>a{
+		position:absolute;
+		top:843px;
+		left:0px;
+		right:0px;
+	border: solid yellow 17px;
+	color:white;
+	background-color:yellow;
+	word-spacing:34px;
 }
