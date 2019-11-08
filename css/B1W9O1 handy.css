@@ -1,14 +1,17 @@
+body{
+	font-family: 'Archivo', sans-serif;
+}
 nav>ul{
 	position:absolute;
 	top:45px;
 	left:183px;
 	right:183px;
-	border: solid black 2px;
+	border: solid black 1px;
 	color:white;
 	background-color:black;
 	word-spacing:34px;
 	display:inline;
-	padding:5px 5px;
+	padding:5px 35px;
 }
 #logo{
 	position:absolute;
@@ -47,7 +50,7 @@ nav>ul{
 .uitklap-menu{
 position:absolute;
 top:29px;
-left:-15px;
+left:-10px;
 display:none;
 list-style-type:none;
 padding:0px;
@@ -99,13 +102,49 @@ border:solid #ffe718 10px;
 nav>ul>li>a:nth-child(5):hover{
 color:black;
 }
-/*.yellow>ul>a{
-		position:absolute;
-		top:843px;
-		left:0px;
-		right:0px;
-	border: solid yellow 17px;
+nav>ul>li>ul>li:nth-child(1):hover{
+background-color:#ffe718;
+border:solid #ffe718 5px;
+}
+nav>ul>li>ul>li>a:nth-child(1):hover{
+color:black;
+}
+nav>ul>li>ul>li:nth-child(2):hover{
+background-color:#ffe718;
+border:solid #ffe718 5px;
+}
+nav>ul>li>ul>li>a:nth-child(2):hover{
+color:black;
+}
+nav>ul>li>ul>li:nth-child(3):hover{
+background-color:#ffe718;
+border:solid #ffe718 5px;
+}
+nav>ul>li>ul>li>a:nth-child(3):hover{
+color:black;
+}
+
+div>ul>h1{
+	position:absolute;
+	top:843px;
+	left:0px;
+	right:0px;
+	border: solid #ffe718 17px;
+	color:black;
+	background-color:#ffe718;
+	padding-left:182px;
+}
+div>ul>h4{
+	position:absolute;
+	top:843px;
+	left:0px;
+	right:0px;
+	border: solid #ffe718 17px;
+	color:black;
+	background-color:#ffe718;
+	padding-left:182px;
+}
+i{
+	padding-left:4px;
 	color:white;
-	background-color:yellow;
-	word-spacing:34px;
 }
