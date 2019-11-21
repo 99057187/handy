@@ -123,28 +123,79 @@ border:solid #ffe718 5px;
 nav>ul>li>ul>li>a:nth-child(3):hover{
 color:black;
 }
-
 div>ul>h1{
 	position:absolute;
-	top:843px;
+	top:900px;
 	left:0px;
 	right:0px;
-	border: solid #ffe718 17px;
+	border: solid #ffe718 57px;
 	color:black;
 	background-color:#ffe718;
 	padding-left:182px;
+	padding-top:0px;
 }
 div>ul>h4{
 	position:absolute;
-	top:843px;
-	left:0px;
+	top:916px;
+	left:591px;
 	right:0px;
-	border: solid #ffe718 17px;
+	border: solid #ffe718 57px;
 	color:black;
 	background-color:#ffe718;
-	padding-left:182px;
+	padding-top: 0px;
 }
-i{
+nav>ul>li>a>i{
 	padding-left:4px;
 	color:white;
+}
+#footer{
+	position:absolute;
+	top:1103px;
+	left:0px;
+}
+#deals{
+	position:absolute;
+	top:1273px;
+	left:208px;
+	height:52px;
+	width:252px;
+	border: solid #ffe718 24px;
+	background-color: #ffe718;
+}
+div>ul>a>i{
+	height:39px;
+	width:64px;
+}
+div>ul>a>h2{
+	position:absolute;
+	left:70px;
+	top:0px;
+}
+div>ul>a>h3{
+	position:absolute;
+	left:70px;
+	top:25px;
+}
+#diensten{
+	position:absolute;
+	top:1273px;
+	left:533px;
+	height:52px;
+	width:252px;
+	border: solid #ffe718 24px;
+	background-color: #ffe718;
+}
+div>ul>a>i{
+	height:39px;
+	width:64px;
+}
+div>ul>a>h2{
+	position:absolute;
+	left:70px;
+	top:0px;
+}
+div>ul>a>h3{
+	position:absolute;
+	left:70px;
+	top:25px;
 }
